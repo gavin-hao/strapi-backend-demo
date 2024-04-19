@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_blocks_banners",
+  "info": {
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text",
+      "maxLength": 500
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

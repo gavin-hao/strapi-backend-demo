@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_images",
+  "info": {
+    "displayName": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string",
+      "maxLength": 150
+    },
+    "text": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "_self"
+      ]
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

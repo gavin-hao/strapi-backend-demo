@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_icps",
+  "info": {
+    "displayName": "icp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

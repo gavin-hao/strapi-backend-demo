@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_navigations",
+  "info": {
+    "displayName": "navigation"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

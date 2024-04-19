@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_homepage_information",
+  "info": {
+    "displayName": "information"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    }
+  }
+}

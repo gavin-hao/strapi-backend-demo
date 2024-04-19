@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_global_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icp": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.icp"
+    },
+    "socialNetworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-network"
+    },
+    "contact": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}
